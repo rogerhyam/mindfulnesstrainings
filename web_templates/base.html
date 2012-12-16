@@ -1,0 +1,21 @@
+<html>
+<head>
+    {% block head %}
+    <link rel="stylesheet" href="static/style/main.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <title>{% block title %}Mindfulness Trainings: {{ title }}{% endblock %}</title>
+    {% endblock %}
+</head>
+<body>
+    <div id="content">
+        <div id="banner">
+            <a href="/"><h1>Mindfulness Trainings</h1></a>
+        </div>
+        {% block content %}{% endblock %}
+    </div>
+    <div id="footer">
+        {% block footer %}
+        &copy; Copyright 2012 <a href="http://www.hyam.net/blog/">Roger Hyam</a>.
+        {% endblock %}
+    </div>
+</body>
+</html>

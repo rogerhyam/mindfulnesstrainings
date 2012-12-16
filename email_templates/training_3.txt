@@ -1,0 +1,16 @@
+{% extends "email_templates/base.html" %}
+{% block content %}This is the Mindfulness Training offered for you to reflect on this week.
+
+-------------------------------------------------------------------------------
+
+ -- TRUE LOVE --
+
+Aware of the suffering caused by sexual misconduct, I am committed to cultivating responsibility and learning ways to protect the safety and integrity of individuals, couples, families, and society.
+
+Knowing that sexual desire is not love, and that sexual activity motivated by craving always harms myself as well as others, I am determined not to engage in sexual relations without true love and a deep, long-term commitment made known to my family and friends. I will do everything in my power to protect children from sexual abuse and to prevent couples and families from being broken by sexual misconduct.
+
+Seeing that body and mind are one, I am committed to learning appropriate ways to take care of my sexual energy and cultivating loving kindness, compassion, joy and inclusiveness – which are the four basic elements of true love – for my greater happiness and the greater happiness of others.
+
+Practising true love, we know that we will continue beautifully into the future.
+
+-------------------------------------------------------------------------------{% endblock %}

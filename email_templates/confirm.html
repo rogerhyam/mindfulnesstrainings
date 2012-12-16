@@ -1,0 +1,8 @@
+{% extends "email_templates/base.html" %}
+{% block content %}
+   <h2>Email Confirmation</h2>
+   <p>Please confirm your email address by clicking on the link below or cutting and pasting it into a web browser.</p>
+   <p><a href="{{ confirmUri }}">{{ confirmUri }}</a></p>   
+{% endblock %}
+{% block confirmCancel %}{% endblock %}
+{% block announce %}{% endblock %}

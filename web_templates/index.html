@@ -1,0 +1,68 @@
+{% extends "web_templates/base.html" %}
+{% block title %}Mindfulness Trainings Study Service{% endblock %}
+{% block content %}
+    <p>
+      Welcome to the Mindfulness Trainings Study Service.
+    </p>
+    
+<h3>The Trainings</h3>
+    <p>
+        The Five Mindfulness Trainings represent the Buddhist vision for a global spirituality and ethic. They are a concrete expression of the Buddha’s teachings on the Four Noble Truths and the Noble Eightfold Path, the path of right understanding and true love, leading to healing, transformation, and happiness for ourselves and for the world. To practice the Five Mindfulness Trainings is to cultivate the insight of interbeing, or Right View, which can remove all discrimination, intolerance, anger, fear, and despair. If we live according to the Five Mindfulness Trainings, we are already on the path of a bodhisattva. Knowing we are on that path, we are not lost in confusion about our life in the present or in fears about the future.
+    </p>
+    <img src="/static/images/zen_characters.png" id="zenCharacters" alt="Zen Characters">
+    <p>
+       The trainings as offered here have been formulated by our teacher Vietnamese Zen Master <a href="http://www.plumvillage.org/thich-nhat-hanh.html">Thích Nhất Hạnh</a> of the 42nd generation of the Linji (Rinzai) Dhyana School but are based on the <a href="http://en.wikipedia.org/wiki/Five_Precepts">five Buddhist precepts</a> that are common to all schools of Buddhism and have been in use for 2,500 years. They are not rules or commandments but principles to adopt in order to develop happiness, compassion and insight. They are compatible with all  religions.
+    </p>
+    
+    <p>
+        Practitioners can undergo a formal ceremony to commit to practicing the trainings. After formally receiving them the practitioner understands that they should study and recite them regularly so that their practice deepens day by day. If in three months the practitioner has not recited the Mindfulness Trainings at least once the formal transmission will no longer be considered to be in effective.
+    </p>
+    
+<h3>What This Service Does</h3>
+    <p>
+        This service is offered for free to all those who would like to practice the trainings, whether they have formally received them or not, so that all practitioners may deepen their practice for the alleviation of the suffering of all beings.
+    </p>
+    <p>
+        If you register with the service using the form below you will receive an email at the start of each week containing one of the Mindfulness Trainings to study and reflect on. You can respond to the email by clicking a link to confirm that you have read it and would like to continue receiving them. If you don't respond for ten weeks the service will cancel your registration and stop sending you emails. 
+     </p>
+     <form method="POST" action="register">
+          <div id="registrationForm">
+             <div class="formControl" >
+                 <div class="formLabel" >Email:</div>
+                 <div class="formInput" ><input type="text" name="email" /></div>
+             </div>
+             <div class="formControl" >
+                 <div class="formLabel" >First Name:</div>
+                 <div class="formInput" ><input type="text" name="first_name" /></div>
+             </div>
+             <div class="formControl" >
+                 <div class="formLabel" >Dharma Name:</div>
+                 <div class="formInput" ><input type="text" name="dharma_name" /> (if you have one)</div>
+             </div>
+             <div class="formControl" >
+                 <div class="formLabel" >Start With:</div>
+                 <div class="formInput" >
+                     <select name="first_training">
+                         <option value="1">1: Reverence For Life</option>
+                         <option value="2">2: True Happiness</option>
+                         <option value="3">3: True Love</option>
+                         <option value="4">4: Loving Speech and Deep Listening</option>
+                         <option value="5">5: Nourishment and Healing</option>
+                     </select>
+                 </div>
+             </div>
+             <div class="formControl" >
+                 <div class="formLabel">&nbsp;</div>
+                 <div class="formInput" style="text-align: right;"><input type="submit" value="Register" /></div>
+             </div>
+             </div>
+         </form>
+
+<h3>Your Data</h3>
+        <ul>
+            <li>There is a link in each email to cancel your registration with immediate effect.</li>
+            <li>Your information will not be shared with any other party or used for  purposes other than running this service.</li>
+            <li>All personal information is deleted when registrations are cancelled whether the cancellation is triggered via the cancel link or by not responding to the emails.</li>
+        </ul>
+
+{% endblock %}

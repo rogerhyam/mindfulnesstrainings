@@ -1,0 +1,12 @@
+{% extends "web_templates/personalised.html" %}
+{% block content %}
+    {{ super() }}
+  
+   <p>{{ message }}</p>
+   
+   {% if reg.emailValidated: %}
+     You can cancel you registration at any time: <a href="{{ cancelUri }}">Cancel registration now.</a>
+   {% endif %}
+   
+   
+{% endblock %}

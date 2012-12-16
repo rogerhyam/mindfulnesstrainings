@@ -1,0 +1,5 @@
+cron:
+- description: Weekly mail out of trainings
+  url: /tasks/publish_all
+  schedule: every monday 01:22
+

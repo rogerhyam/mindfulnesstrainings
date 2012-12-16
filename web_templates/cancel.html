@@ -1,0 +1,24 @@
+{% extends "web_templates/personalised.html" %}
+{% block content %}
+    {{ super() }}
+    
+   {% if reg %}
+
+    <p>You are about to cancel your registration. Are you sure?</p>
+    
+    <p><a href="/cancel_doit?reg_key={{ reg.regKey }}"><strong>Yes</strong> cancel my registration and delete all data about me.</a></p>
+    
+    <p><a href="/"><strong>No</strong> do not cancel my registration.</a></p>
+
+   {% else %}
+
+    <p><strong>Sorry.</strong> We can't find a registration associated with the registration key '{{ reg.regKey }}'.</p>
+    
+    <p>Perhaps the registration has already been cancelled?</p>
+    
+    <p>You can always <a href="/">register again</a> if you like.</p>
+    
+   
+   {% endif %}
+
+{% endblock %}

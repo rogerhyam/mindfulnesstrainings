@@ -1,0 +1,11 @@
+{% extends "email_templates/base.txt" %}
+{% block content %}
+
+Email Confirmation
+
+Please confirm your email address by clicking on the link below or cutting and pasting it into a web browser.
+
+{{ confirmUri }}
+
+{% endblock %}
+

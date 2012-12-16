@@ -1,0 +1,10 @@
+{% extends "web_templates/base.html" %}
+{% block content %}
+  
+  <h2>{{ title }}</h2>
+  
+  {% if reg: %}
+       <p>Hi {{ reg.firstName }} {% if reg.dharmaName:  %} ~ <em>{{ reg.dharmaName }}</em> ~{% endif %}</p>
+  {% endif %}
+   
+{% endblock %}

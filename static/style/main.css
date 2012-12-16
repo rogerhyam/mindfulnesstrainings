@@ -1,0 +1,62 @@
+body{
+    background-color: gray;
+}
+
+#content{
+    background-color: white;
+    width: 80%;
+    border: solid black 1px;
+    border-radius:1em;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#registrationForm{
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:1em;
+    padding: 1em;
+    border: solid black 1px;
+}
+
+.formControl{
+    height: 1.3em;
+    padding-bottom: 1em;
+   
+}
+
+
+.formLabel{
+    font-weight: bold;
+    text-align: right;
+    padding-right: 0.3em;
+    float: left;
+    width: 8em;
+}
+
+.formInput{
+    float: left;
+}
+
+#footer{
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+    clear: both;
+}
+
+#footer a{
+    color: white;
+}
+
+#footer a:hover{
+    color: green;
+}
+
+#zenCharacters{
+    width: 122px;
+    height: 122px;
+    float: left;
+}

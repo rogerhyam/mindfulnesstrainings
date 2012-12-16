@@ -1,0 +1,8 @@
+{% extends "web_templates/base.html" %}
+{% block title %}Index{% endblock %}
+{% block content %}
+    {{ super() }}
+   <h2>Email In Use</h2>
+   <p>Sorry, there is already a registration for that email address.</p>
+   <p>If you want to change your registration details (such as your Dharma name or the training you will receive next) please cancel the registration using the link in one of the emails you have already received and re-register with the new details.</p>   
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "email_templates/base.html" %}
+{% block content %}This is the Mindfulness Training offered for you to reflect on this week.
+
+-------------------------------------------------------------------------------
+
+ -- TRUE HAPPINESS -- 
+ 
+Aware of the suffering caused by exploitation, social injustice, stealing, and oppression, I am committed to practising generosity in my thinking, speaking, and acting.
+
+I am determined not to steal and not to possess anything that should belong to others; and I will share my time, energy, and material resources with those who are in need.
+
+I will practise looking deeply to see that the happiness and suffering of others are not separate from my own happiness and suffering; that true happiness is not possible without understanding and compassion; and that running after wealth, fame, power and sensual pleasures can bring much suffering and despair.
+
+I am aware that happiness depends on my mental attitude and not on external conditions, and that I can live happily in the present moment simply by remembering that I already have more than enough conditions to be happy.
+
+I am committed to practising Right Livelihood so that I can help reduce the suffering of living beings on Earth and reverse the process of global warming.
+
+-------------------------------------------------------------------------------{% endblock %}

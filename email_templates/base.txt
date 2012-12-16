@@ -1,0 +1,27 @@
+{% block header %}{% if reg: %}Dear {{ reg.firstName }} {% if reg.dharmaName:  %} ~ {{ reg.dharmaName }} ~{% endif %}</p>{% endif %}{% endblock %}
+{% block content %}
+default content
+{% endblock %}
+{% block announce %}-- Announcements --
+
+After a period of testing this service is now live and ready to face the world!
+
+Please help spread the word by inviting your friends to sign up at:
+
+http://mindfulness-trainings.appspot.com/
+
+Perhaps forward them this email.{% endblock %}
+{% block confirmCancel %}------------------------------------------------------------------------------- 
+
+{% if reg: %}You have had {{ reg.sinceLastResponse + 1 }} email{% if reg.sinceLastResponse > 0: %}s{% endif %} since your last response. We will stop sending the trainings if you don't respond at least every ten emails.{% endif %}
+
+To continue receiving Mindfulness Trainings please go to:
+
+{{ confirmUri }}
+
+If you would like to cancel your registration and stop receiving Mindfulness Trainings by email please go to:
+
+{{ cancelUri }}
+   
+If you have any comments about the service (corrections, suggestions or praise) please contact "Roger Hyam <roger@hyam.net>" 
+{% endblock %}
